@@ -1,0 +1,117 @@
+{
+  "format": "dase7506-mp2-stage3-freeze-v1",
+  "frozen_at": "2026-10-30T17:15:00.594634+08:00",
+  "precommitted_candidate": "CREO high-validation gate",
+  "seed": 20261022,
+  "method": "code_snapshot/submission_stage3.py",
+  "checkpoint": "checkpoint",
+  "selection_data": [
+    "train-hard grouped OOF",
+    "validation"
+  ],
+  "test_used_for_selection": false,
+  "selection_evidence": {
+    "train_hard_oof_correct": 1720,
+    "train_hard_oof_n": 2114,
+    "train_hard_oof_accuracy": 81.3623462630085,
+    "validation_correct": 755,
+    "validation_n": 798,
+    "validation_accuracy": 94.61152882205513,
+    "validation_hard_correct": 312,
+    "validation_hard_n": 355
+  },
+  "checkpoint_bytes": 166594,
+  "asset_limit_bytes": 16777216,
+  "files": [
+    {
+      "path": "checkpoint/base_stage1/config.json",
+      "bytes": 363,
+      "sha256": "17c437b9a08391f5fc08ccac027f0fe9edb63eb3de3f7723c471d672f13021f8"
+    },
+    {
+      "path": "checkpoint/base_stage1/loss_history.json",
+      "bytes": 9529,
+      "sha256": "8ec05f38420f4d60ef8fd9aefbed9393dc3e08b40312cacabb6e61ac1407099a"
+    },
+    {
+      "path": "checkpoint/base_stage1/model.npz",
+      "bytes": 13494,
+      "sha256": "0abf310986d37f893f30b874c00464c38c4b3d1803261532690ed7dde0ed4cd8"
+    },
+    {
+      "path": "checkpoint/base_stage2/config.json",
+      "bytes": 463,
+      "sha256": "f8677dc6d1405e008e2232dd2c85ca58bac69e88a0e8b98e2d2036ec4ffe9a2c"
+    },
+    {
+      "path": "checkpoint/base_stage2/loss_history.json",
+      "bytes": 9529,
+      "sha256": "b3123b810d9f04d832ebac1d05c12531df17009a978e5d88c7c5e33ccfce9310"
+    },
+    {
+      "path": "checkpoint/base_stage2/model.npz",
+      "bytes": 13494,
+      "sha256": "b28c85f5d6a03c7041c34607b7ae9f71e5ded7f709cdf59a28f44af4aaeddeca"
+    },
+    {
+      "path": "checkpoint/config.json",
+      "bytes": 6944,
+      "sha256": "4772996abfb55b152ec17bf164a835b666fcda5e20844ba0453150a8a6eba2eb"
+    },
+    {
+      "path": "checkpoint/creo_model.npz",
+      "bytes": 17676,
+      "sha256": "af74eaff68ccc91700a8ef157a0e9194a38206a5508bfba20d28550a3b79f8d0"
+    },
+    {
+      "path": "checkpoint/loss_histories.json",
+      "bytes": 95102,
+      "sha256": "72eec6113a78927b249f0e65b4204d4bc08eb70f3a91c41b20fc52069b168335"
+    },
+    {
+      "path": "code_snapshot/common.py",
+      "bytes": 4192,
+      "sha256": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c"
+    },
+    {
+      "path": "code_snapshot/creo_features.py",
+      "bytes": 25851,
+      "sha256": "ac1d04f8f9215bf6f4256830f7c27aa179301138964527497c73b0e8a972e0fe"
+    },
+    {
+      "path": "code_snapshot/creo_model.py",
+      "bytes": 9529,
+      "sha256": "d803b13f9e8e0e8ef0783584d69190af3d5bf84b32072b78a11e783d704b1ffb"
+    },
+    {
+      "path": "code_snapshot/predict.py",
+      "bytes": 1680,
+      "sha256": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162"
+    },
+    {
+      "path": "code_snapshot/requirements.txt",
+      "bytes": 13,
+      "sha256": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5"
+    },
+    {
+      "path": "code_snapshot/score_predictions.py",
+      "bytes": 1283,
+      "sha256": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960"
+    },
+    {
+      "path": "code_snapshot/selector_features.py",
+      "bytes": 14132,
+      "sha256": "d4efc65de8ce78cd01a6b5dce35823f18901e54e9f07c27d1f96ceba3bb9415c"
+    },
+    {
+      "path": "code_snapshot/selector_model.py",
+      "bytes": 13864,
+      "sha256": "f7451bce37df2fea3c8fd073776c78177e85d181f1027b6a78a8a7257d38e905"
+    },
+    {
+      "path": "code_snapshot/submission_stage3.py",
+      "bytes": 3657,
+      "sha256": "b222ee866dd20bd97c6741a1bbd121d22b40b6e93ab98dc9d10550ead176067e"
+    }
+  ]
+}

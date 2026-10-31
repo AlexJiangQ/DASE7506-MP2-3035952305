@@ -1,0 +1,27 @@
+{
+  "format": "dase7506-mp2-linear-v1",
+  "variant": "hand_centered",
+  "slices": {
+    "hand": [
+      0,
+      32
+    ],
+    "relative": [
+      32,
+      38
+    ],
+    "centered": [
+      38,
+      1062
+    ]
+  },
+  "bias": 0.0,
+  "hand_l2": 0.01,
+  "embedding_l2": 1.0,
+  "loss_kind": "listwise",
+  "pairwise_weight": 0.1,
+  "weight_scheme": "uniform",
+  "decision_rule": "candidate",
+  "cluster_alpha": 0.0,
+  "temperature": 1.0
+}

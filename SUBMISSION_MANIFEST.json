@@ -1,0 +1,188 @@
+{
+  "format": "dase7506-mp2-stage3-public-submission-v1",
+  "created_at_utc8": "2026-10-31T13:59:02+08:00",
+  "method": "Stage 3 CREO high-validation gate",
+  "entry": "code/submission.py",
+  "implementation": "code/submission_stage3.py",
+  "checkpoint": "submission_assets/checkpoint",
+  "public_assets_directory": "submission_assets",
+  "assets_uncompressed_bytes": 170734,
+  "asset_limit_bytes": 16777216,
+  "checkpoint_bytes": 166594,
+  "checkpoint_tree_sha256": "0342459cbf1b1b99823faa0b1fd646fed49ec6a33ac4428708e1ae173fa9af53",
+  "checkpoint_tree_sha256_definition": "SHA-256 of UTF-8 JSON of sorted checkpoint entries (path, bytes, sha256), with sorted keys and compact separators",
+  "historical_freeze_manifest_sha256": "6bcf921527436869ec62cfe1c903d467986efeb9e1c0bf4fb5f03a0db50afefa",
+  "historical_freeze_path_mapping": {
+    "checkpoint/base_stage1/config.json": "submission_assets/checkpoint/base_stage1/config.json",
+    "checkpoint/base_stage1/loss_history.json": "submission_assets/checkpoint/base_stage1/loss_history.json",
+    "checkpoint/base_stage1/model.npz": "submission_assets/checkpoint/base_stage1/model.npz",
+    "checkpoint/base_stage2/config.json": "submission_assets/checkpoint/base_stage2/config.json",
+    "checkpoint/base_stage2/loss_history.json": "submission_assets/checkpoint/base_stage2/loss_history.json",
+    "checkpoint/base_stage2/model.npz": "submission_assets/checkpoint/base_stage2/model.npz",
+    "checkpoint/config.json": "submission_assets/checkpoint/config.json",
+    "checkpoint/creo_model.npz": "submission_assets/checkpoint/creo_model.npz",
+    "checkpoint/loss_histories.json": "submission_assets/checkpoint/loss_histories.json",
+    "code_snapshot/common.py": "code/common.py",
+    "code_snapshot/creo_features.py": "code/creo_features.py",
+    "code_snapshot/creo_model.py": "code/creo_model.py",
+    "code_snapshot/predict.py": "code/predict.py",
+    "code_snapshot/requirements.txt": "code/requirements.txt",
+    "code_snapshot/score_predictions.py": "code/score_predictions.py",
+    "code_snapshot/selector_features.py": "code/selector_features.py",
+    "code_snapshot/selector_model.py": "code/selector_model.py",
+    "code_snapshot/submission_stage3.py": "code/submission_stage3.py"
+  },
+  "validation_reproduction": {
+    "correct": 755,
+    "n": 798,
+    "accuracy_percent": 94.61152882205513,
+    "ids_and_choices_match_frozen": true,
+    "source_a1_audit": "code/runs/a1_submission_audit_20261031_134006/audit_log.json",
+    "published_checkpoint_validated": true,
+    "published_checkpoint_choices_match_frozen": true,
+    "published_checkpoint_score_source": "code/runs/a2_published_validation_score.json",
+    "latest_prediction_output": "code/runs/reproduced_validation_predictions.json",
+    "latest_score_output": "code/runs/reproduced_validation_score.json",
+    "latest_external_wall_seconds": {
+      "prediction_plus_scoring": 3.692
+    },
+    "latest_official_inner_seconds": {
+      "prediction": 2.719243400002597,
+      "scoring": 0.052408700008527376
+    },
+    "latest_ids_and_choices_match_frozen": true,
+    "latest_phase": "six-page PDF visual verification"
+  },
+  "test": {
+    "status": "not rerun in this phase",
+    "saved_official_score": "submission_assets/final_test_score.json",
+    "correct": 387,
+    "n": 467,
+    "accuracy_percent": 82.86937901498929
+  },
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -p test_*.py -q",
+    "passed": 31,
+    "failed": 0,
+    "phase": "A1",
+    "last_run_phase": "A1; not rerun during pre-submission audit"
+  },
+  "ai_reuse_disclosure": "REPORT.md, Section 7: Attribution and AI assistance",
+  "original_release_manifest_note": "code/PACKAGE_MANIFEST.json describes the original course release, not this submission",
+  "files": {
+    ".gitignore": {
+      "bytes": 274,
+      "sha256": "1e0b2979612c7bd9964e5943a387566b40a9493aba6c7bfd24481639eb49e276"
+    },
+    "HANDOFF_ERRATA.md": {
+      "bytes": 2681,
+      "sha256": "2671121fa71887313b3d963d2a9461ea1ca0d727671f9e146903417691fcba2a"
+    },
+    "PRE_SUBMISSION_AUDIT.md": {
+      "bytes": 4716,
+      "sha256": "03b7fe9fafb30cf6238ad19f83352b6340dd1e2d6d6c4ae8e6229399dd51f350"
+    },
+    "REPORT.md": {
+      "bytes": 21417,
+      "sha256": "d66428c0f4c200bc13075cc9c4f130c08baa475fa1587cf198da9e0aa9774425"
+    },
+    "REPORT.pdf": {
+      "bytes": 114103,
+      "sha256": "e296ec52857aa8459efe106f9424f2069e4f3edbe504e4341ee7b01a380bc312"
+    },
+    "code/README.md": {
+      "bytes": 8710,
+      "sha256": "ff780cc4901e77d3e1986a1a3d642ba8bb6f0f42751c4f8ea68912d2ecd918e4"
+    },
+    "code/common.py": {
+      "bytes": 4192,
+      "sha256": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c"
+    },
+    "code/creo_features.py": {
+      "bytes": 25851,
+      "sha256": "ac1d04f8f9215bf6f4256830f7c27aa179301138964527497c73b0e8a972e0fe"
+    },
+    "code/creo_model.py": {
+      "bytes": 9529,
+      "sha256": "d803b13f9e8e0e8ef0783584d69190af3d5bf84b32072b78a11e783d704b1ffb"
+    },
+    "code/predict.py": {
+      "bytes": 1680,
+      "sha256": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162"
+    },
+    "code/requirements.txt": {
+      "bytes": 13,
+      "sha256": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5"
+    },
+    "code/score_predictions.py": {
+      "bytes": 1283,
+      "sha256": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960"
+    },
+    "code/selector_features.py": {
+      "bytes": 14132,
+      "sha256": "d4efc65de8ce78cd01a6b5dce35823f18901e54e9f07c27d1f96ceba3bb9415c"
+    },
+    "code/selector_model.py": {
+      "bytes": 13864,
+      "sha256": "f7451bce37df2fea3c8fd073776c78177e85d181f1027b6a78a8a7257d38e905"
+    },
+    "code/submission.py": {
+      "bytes": 334,
+      "sha256": "6a4dd199311571cdd1f57e6667346a17e68a82c6e3a5caef43816b8fadac7855"
+    },
+    "code/submission_stage3.py": {
+      "bytes": 3657,
+      "sha256": "b222ee866dd20bd97c6741a1bbd121d22b40b6e93ab98dc9d10550ead176067e"
+    },
+    "submission_assets/checkpoint/base_stage1/config.json": {
+      "bytes": 363,
+      "sha256": "17c437b9a08391f5fc08ccac027f0fe9edb63eb3de3f7723c471d672f13021f8"
+    },
+    "submission_assets/checkpoint/base_stage1/loss_history.json": {
+      "bytes": 9529,
+      "sha256": "8ec05f38420f4d60ef8fd9aefbed9393dc3e08b40312cacabb6e61ac1407099a"
+    },
+    "submission_assets/checkpoint/base_stage1/model.npz": {
+      "bytes": 13494,
+      "sha256": "0abf310986d37f893f30b874c00464c38c4b3d1803261532690ed7dde0ed4cd8"
+    },
+    "submission_assets/checkpoint/base_stage2/config.json": {
+      "bytes": 463,
+      "sha256": "f8677dc6d1405e008e2232dd2c85ca58bac69e88a0e8b98e2d2036ec4ffe9a2c"
+    },
+    "submission_assets/checkpoint/base_stage2/loss_history.json": {
+      "bytes": 9529,
+      "sha256": "b3123b810d9f04d832ebac1d05c12531df17009a978e5d88c7c5e33ccfce9310"
+    },
+    "submission_assets/checkpoint/base_stage2/model.npz": {
+      "bytes": 13494,
+      "sha256": "b28c85f5d6a03c7041c34607b7ae9f71e5ded7f709cdf59a28f44af4aaeddeca"
+    },
+    "submission_assets/checkpoint/config.json": {
+      "bytes": 6944,
+      "sha256": "4772996abfb55b152ec17bf164a835b666fcda5e20844ba0453150a8a6eba2eb"
+    },
+    "submission_assets/checkpoint/creo_model.npz": {
+      "bytes": 17676,
+      "sha256": "af74eaff68ccc91700a8ef157a0e9194a38206a5508bfba20d28550a3b79f8d0"
+    },
+    "submission_assets/checkpoint/loss_histories.json": {
+      "bytes": 95102,
+      "sha256": "72eec6113a78927b249f0e65b4204d4bc08eb70f3a91c41b20fc52069b168335"
+    },
+    "submission_assets/final_test_score.json": {
+      "bytes": 187,
+      "sha256": "f37e0e029cb806b59ba4bc139af7fd4ca64cee9b36ca6cb3f2dd918b86d24ce9"
+    },
+    "submission_assets/freeze_manifest.json": {
+      "bytes": 3865,
+      "sha256": "6bcf921527436869ec62cfe1c903d467986efeb9e1c0bf4fb5f03a0db50afefa"
+    },
+    "submission_assets/freeze_manifest.sha256": {
+      "bytes": 88,
+      "sha256": "fffd2791e5b90c4ce638e3419d9dec3621f9fa24ff9b3116634679654ef7ac91"
+    }
+  },
+  "report_pdf_pages": 6,
+  "updated_at_utc8": "2026-10-31T17:04:47+08:00"
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+runs/
+# The curated, frozen Stage 3 submission bundle is intentionally publishable.
+!submission_assets/
+!submission_assets/**
+.DS_Store
+Thumbs.db
+# A temporary PDF render used only for local visual verification.
+REPORT_pre_submission.pdf
